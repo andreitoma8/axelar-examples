@@ -2,9 +2,9 @@
 
 This PoC tests the process of calling from Chain 1 to Chain 2 and then back to Chain 1, the same as proposed in my analysis write-up:
 
-1. GatewayOne sends a cross-chain message to GatewayTwo through LayerZero
-1. GatewayTwo receives the message, makes appropriate state changes, and then calls back GatewayOne
-1. GatewayOne receives the callback message and also makes the appropriate state changes
+1. LibreGatewayA sends a cross-chain message to GatewayTwo through Axelar Network
+1. LibreGatewayB receives the message, makes appropriate state changes, and then calls back LibreGatewayA
+1. LibreGatewayA receives the callback message and also makes the appropriate state changes
 
 ## How to run the PoC
 
